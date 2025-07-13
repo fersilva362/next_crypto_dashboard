@@ -17,4 +17,4 @@ jobs:
     
     - name: Use Node.js blabla
      
-    - run: echo 'world'
+      run: echo 'world'
