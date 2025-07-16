@@ -17,4 +17,6 @@ jobs:
           echo "Job ID: $GITHUB_JOB"
           echo "Action: $GITHUB_ACTION"
           echo "Actor: $GITHUB_ACTOR"
-          echo "fer"
+
+          echo "fer222d"
+
