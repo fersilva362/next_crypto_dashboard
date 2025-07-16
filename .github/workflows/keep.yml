@@ -6,6 +6,10 @@ jobs:
   hello_world:
     runs-on: ubuntu-latest
     steps:
-      - name: Echo current time
-        run: echo "The current server time is $(date)"
-        run: echo 'ferrrrr'
+      - name: "Echo Basic Information"
+        run: |
+          echo "REF: $GITHUB_REF"
+          echo "Job ID: $GITHUB_JOB"
+          echo "Action: $GITHUB_ACTION"
+          echo "Actor: $GITHUB_ACTOR"
+          echo "fer222"
